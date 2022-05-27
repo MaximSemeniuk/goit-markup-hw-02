@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>goit-markup-hw-01</title>
 </head>
 <body>
@@ -12,23 +12,23 @@
 
         <!--header-->
 
-        <header>
+        <header class="head-link">
 
             <nav>
                 <a lang="en" class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
                 
-                <ul>
+                <ul class="menu-nav">
                 
-                    <li><a href="./index.html">Студия</a></li>
-                    <li><a href="./portfolio.html">Портфолио</a></li>
-                    <li><a href="./index.html">Контакты</a></li>
+                    <li><a class="link" href="./index.html">Студия</a></li>
+                    <li><a class="link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="link" href="./index.html">Контакты</a></li>
                 
                 </ul>
             </nav>
 
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38096111-11-11</a></li>
+            <ul class="contact-link">
+                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link" href="tel:+380961111111">+38096111-11-11</a></li>
             </ul>
 
         </header>
@@ -38,7 +38,7 @@
         <main>
             <!--title-->
             
-                <section>
+                <section class="title">
                     <h1>Эффективные решения <br> для вашего бизнеса</h1>
                     <button type="button">Заказать услугу</button>
                 </section>
@@ -47,7 +47,8 @@
             <section>
 
                 <h2>Скилы</h2>
-                <ul>
+
+                <ul class="skill-list">
                     <li>
                         <h3>Внимание к деталям</h3>
                         <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -71,8 +72,10 @@
                 
                 </ul>
             </section>
+
+            <!-- our work -->
             
-            <section>
+            <section class="our-work">
                 <h2>Чем мы занимаемся</h2>
 
                 <ul>
@@ -86,7 +89,7 @@
             
             <!--our team -->
             
-            <section>
+            <section class="our-team">
 
                 <h2>Наша команда</h2>
 
@@ -127,16 +130,17 @@
 
        <!--contacts-->
 
-       <footer>
+    <footer class="footer-link">
         <a lang="en" class="logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
-            <address>
-                <ul> 
-                    <li><a href="https://goo.gl/maps/2Jbn84FayPKxQuNF9" target="_blank" rel="noopener nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a href="tel:+380991111111">+38099111-11-11</a></li>
-                </ul>
-           </address>
-       </footer>
+        <address>
+            <ul class="adress-link">
+                <li><a class="map-link" href="https://goo.gl/maps/2Jbn84FayPKxQuNF9" target="_blank"
+                        rel="noopener nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a class="link" href="mailto:info@example.com">info@example.com</a></li>
+                <li><a class="link" href="tel:+380991111111">+38099111-11-11</a></li>
+            </ul>
+        </address>
+    </footer>
 
 </body>
 </html>
