@@ -3,12 +3,18 @@
 body {
     font-family: 'Raleway',
             sans-serif;
-        font-family: 'Roboto',
+    font-family: 'Roboto',
             sans-serif;
+    width: 1600px;
+    background: #FFFFFF;
+    display:flow-root;
+    
 }
 
+/* header */
 
-.logo {
+
+header .logo {
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -22,4 +28,157 @@ text-decoration: none;
 .logo-web {
     color: #2196F3;
    
+}
+
+.head-link .link:hover,.head-link .link:focus {
+color: red;
+}
+
+.menu-nav {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+
+.contact-link {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+
+/* main */
+
+.title {
+    background-color: #2F303A;
+    text-align: center;
+    width: 1600px;
+    height: 600px;
+}
+
+.title>h1 {
+font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 215px;    
+}
+.title button {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color:#2196F3;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
+
+/* skills */
+
+.skill-list h3 {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+}
+
+.skill-list p {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #757575;
+}
+
+/* our work */
+
+.our-work>h2 {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+}
+
+
+/* our team */
+
+.our-team>h2 {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        color: #212121;
+}
+
+.our-team h3 {
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #212121;
+}
+
+.our-team p {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #757575;
+}
+
+
+
+/* footer */
+
+.footer-link .link:hover, .footer-link .link:focus{
+    color: red;
+}
+
+.adress-link .link {
+font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.map-link {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+
+footer {
+    background-color:#2F303A;
+}
+footer .logo {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color:#FFFFFF;
+        text-decoration: none;
+
 }
